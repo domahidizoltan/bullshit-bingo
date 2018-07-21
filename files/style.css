@@ -1,0 +1,40 @@
+body{font-family:arial,verdana,helvetica,sans-serif;margin:0px;color:#000;background-color:#FFF;font-size:20px;}
+table.card,table.win{text-align:center;border:2px solid #000;margin-left:auto;margin-right:auto;width:728px;height:728px;margin-bottom:10px;}
+table.win{border:2px solid #0F0;}
+table.card td, table.win td{border:1px solid #000;width:100px;height:100px;padding:2px;font-weight:bold;font-size:20px;}
+table.card td:hover, table.win td:hover{background-color:#AAA;}
+table.card td.clicked, table.win td.clicked{background-color:#CCC;}
+table.card td.clicked:hover, table.win td.clicked:hover{;background-color:#AAA;}
+table.card td.win, table.win td.win{background-color:#0F0;}
+table.card td.freecell, table.win td.freecell{font-weight:bold;background-color:#CCC;color:#000;font-size:20px;}
+hr{color:#000;background-color:#FFF;border:1px dashed #CCC;width:90%;}
+h1,.abouthead{text-align:center;margin-bottom:0px;}
+h2.abouthead{margin-top:0px;}
+ul{padding-bottom:20px;}
+ul li{padding-bottom:5px;}
+.howtoplay,.about,#intro{text-align:center;font-weight:bold;margin:auto;width:728px;}
+#game_description{text-align:center;margin:auto;width:728px;}
+.howtoplay,.about{border:0px;text-align:left;padding:0px;font-weight:normal;}
+.footer,.navbar,#legal,#share,#original{font-weight:normal;font-size:20px;text-align:center;margin:0;width:728px;margin:auto;}
+#sopa,#sopaframe{text-align:center;padding-top:5px;padding-bottom:5px;width:728px;height:300px;margin:auto;}
+#legal{color:#999;background-color:#FFF;margin-bottom:5px;}
+#share, #original,.center{text-align:center;margin:auto;background-color:#FFF;}
+#share{margin-top:5px
+height:50px;}
+div.addthis_toolbox{width:728px;margin:0 auto;margin-top:5px;background-color:#FFF;}
+input{width:400px;}
+label{padding-top:10px;font-weight:bold;font-size:20px;}
+img{border:0px;}
+#adbanner{padding-top:10px;margin:auto;width:728px;}
+.notice{color:#f00;background-color:#FFF;}
+.url{display:none}
+@media print{#intro,.howtoplay,.footer,.navbar,.contact,hr,#original,#game_description{display:none;}
+h1,.abouthead,.url{display:block;text-align:center;margin-bottom:0px;}
+.url{font-size:9pt;}
+#adbanner,#share{display:none;}
+}
+#ECFormSubmit{background-color:#FFF;color:#FFF;}
+/*@media handheld{table{border:1px solid #000;font-weight:normal;text-align:center;font-size:25px;}
+td{border:1px solid #000;padding:0px;}
+}
+*/
