@@ -1,7 +1,7 @@
 body{font-family:arial,verdana,helvetica,sans-serif;margin:0px;color:#000;background-color:#FFF;font-size:20px;}
-table.card,table.win{text-align:center;border:2px solid #000;margin-left:auto;margin-right:auto;width:728px;height:728px;margin-bottom:10px;}
+table.card,table.win{table-layout:fixed;text-align:center;border:2px solid #000;margin-left:auto;margin-right:auto;width:728px;height:728px;margin-bottom:10px;}
 table.win{border:2px solid #0F0;}
-table.card td, table.win td{border:1px solid #000;width:100px;height:100px;padding:2px;font-weight:bold;font-size:20px;}
+table.card td, table.win td{overflow-wrap:anywhere;border:1px solid #000;width:100px;height:100px;padding:2px;font-weight:bold;font-size:20px;}
 table.card td:hover, table.win td:hover{background-color:#AAA;}
 table.card td.clicked, table.win td.clicked{background-color:#CCC;}
 table.card td.clicked:hover, table.win td.clicked:hover{;background-color:#AAA;}
